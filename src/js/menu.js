@@ -53,5 +53,6 @@ function installThemeReload() {
     refs.bodyEl.classList.add(Theme.LIGHT);
   } else {
     refs.bodyEl.classList.add(Theme.DARK);
+    refs.checkboxEl.checked = true;
   }
 }
